@@ -35,6 +35,14 @@ padding-top:80px;
     overflow: hidden;
     object-fit: cover;
 }
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui){
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    min-height: 70px;
+}
 .shop-title{
 padding-top:30px;
 padding-bottom:30px;
