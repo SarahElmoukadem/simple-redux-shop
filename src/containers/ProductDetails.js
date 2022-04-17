@@ -27,7 +27,7 @@ const ProductDetails = () => {
     return (
         <div className="ui grid container">
             {Object.keys(product).length === 0 ? (
-                <div>
+                <div  className="ui placeholder segment">
                     ...Loading
                 </div>
             ) : (
