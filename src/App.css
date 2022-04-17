@@ -30,6 +30,12 @@
 body{
 padding-top:80px;
 }
+
+.shop-title{
+padding-top:30px;
+padding-top:30px;
+  
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
